@@ -16,13 +16,13 @@ div {
   background-color: #9bbac6;
   border: solid black 1px;
   position: relative;
-  /* margin: 10px; I cannot for the life of me figure out how to add a margin to the divs without it breaking line.
+  /*margin: 10px; /*I cannot for the life of me figure out how to add a margin to the divs without it breaking line.
   I know its because the total width is over 100%, but box-sizing border-box doesn't account for extra margin, only border
   and padding. I could have done this using not 33.33% for the media query and then manually adding margin, but that felt
   like the wrong approach and I'd like to learn the right way. */
 }
 
-.section-title {
+h2 {
   position: absolute;
   top: 0;
   right: 0;
@@ -31,8 +31,11 @@ div {
   text-align: center;
   font-size: 125%;
 }
-.text {
+p {
   margin: 35px 15px 10px 15px;
+}
+.outer {
+  width: 100%;
 }
 
 #section-1 {
